@@ -118,7 +118,7 @@ body {
     opacity: 1;
     position: absolute;
     top: 60%;
-    right: 7%;
+    right: 10%;
     overflow: hidden;
 }
 .name {
@@ -166,12 +166,10 @@ body {
 }
 .navigation_about {
     width: 100%;
-    height: 10%;
+    height: 15%;
     background: rgba(0,0,0,0.9399999976158142);
     opacity: 1;
     position: absolute;
-    top: 0px;
-    left: 0px;
     overflow: hidden;
 }
 .home_text2 {
@@ -214,14 +212,14 @@ body {
 }
 .logo_about {
     width: 4.5%;
-    height: 80%;
+    height: 70%;
     background: url("../media/student_info_1.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     opacity: 1;
     position: absolute;
-    margin: 10px;
+    margin: 0.5%;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     border-bottom-left-radius: 30px;
@@ -236,7 +234,7 @@ body {
     background-size: cover;
     position: absolute;
     opacity: 1;
-    top: 10%;
+    top: 12.5%;
     left: 0px;
     overflow: hidden;
 }
