@@ -13,35 +13,27 @@
 <body>
 <div class="v317_3215">
     <div class="v323_3426"></div>
-    <span class="title">Student Portal</span><span class="welcome_text">Welcome back to<span class="write"> Student
-                Portal</span></span>
+    <span class="title">Student Portal</span><span class="welcome_text">Welcome back to <b class="write"> Student Portal</b></span>
 
     <div class="background_image"></div>
     <div class="name"></div>
     <div action="../scripts/login.js" method="post">
         <form>
-            <label class="username_label_text" for="uname"><b>Username<br></b>
-                <div class="username_label">
-                <input type="text" placeholder="Enter Username" name="uname" required>
-                </div>
-            </label>
+            <label class="username_text" for="username">E-mail</label>
+            <input id="username" class="username_label" type="text" placeholder="Email" name="uname" required>
+            <i class="mail_icon"></i>
 
-            <label class="password_label" for="password"><b>Password</b>
-                <input type="password" placeholder="Password" name="password" required>
-            </label>
-            <button type="submit" href="./overview.html" class="login_button">
+            <label class="password_text" for="password"><b>Password</b> </label>
+            <input  id="password" class="password_label" type="password" placeholder="Password" name="password" required>
+
+            <button type="submit" onclick="location.href='./overview.html';" class="login_button">
                 Login
             </button>
-            <span class="v323_3410">Forget Password?</span><span class="v323_3411">Remember me</span>
-            <div class="v323_3412">
-                <div class="v323_3413"></div>
-                <div class="v323_3414"></div>
-            </div>
+            <a href="login.html" class="forget_pasword">Forget Password?</a><span class="remember_me">Remember me</span>
+            <input type="checkbox" class="check"/>
         </form>
     </div>
-    <span class="v323_3399">Login</span>
-
-
+    <span class="title2">Login</span>
 
 
 </div>
