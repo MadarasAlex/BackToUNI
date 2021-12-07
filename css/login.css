@@ -1,22 +1,19 @@
 * {
     box-sizing: border-box;
 }
-
 body {
     font-size: 14px;
 }
-
 .v317_3215 {
     width: 100%;
     height: 943px;
-    background: rgba(255, 255, 255, 1);
+    background: rgba(255,255,255,1);
     opacity: 1;
     position: absolute;
     top: 0px;
     left: 0px;
     overflow: hidden;
 }
-
 .background_image {
     width: 720px;
     height: 943px;
@@ -30,93 +27,60 @@ body {
     left: 0px;
     overflow: hidden;
 }
-
 .v323_3386 {
     width: 50px;
     height: 56px;
-    background: url("../media/student_info2.png");;
+    background:  url("../media/student_info2.png");;
     opacity: 1;
     position: absolute;
     top: 571px;
     left: 1193px;
     overflow: hidden;
 }
-
 .name {
     color: #fff;
 }
-
-.username_text {
+.password_label {
     width: 88px;
-    color: rgba(3, 45, 35, 1);
-    position: absolute;
-    top: 449px;
-    left: 853px;
-    font-family: Inter, serif;
-    font-weight: Bold;
-    font-size: 18px;
-    opacity: 0.6000000238418579;
-    text-align: left;
-}
-
-.password_text {
-    width: 88px;
-    color: rgba(3, 45, 35, 1);
+    color: rgba(3,45,35,1);
     position: absolute;
     top: 579px;
-    left: 853px;
+    left: 876px;
     font-family: Inter;
     font-weight: Semi Bold;
     font-size: 18px;
     opacity: 0.6000000238418579;
     text-align: left;
 }
-
+.username_label_text {
+    width: 508px;
+    color: rgba(3,45,35,1);
+    position: absolute;
+    top: 486px;
+    left: 876px;
+    font-family: Inter;
+    font-weight: Semi Bold;
+    font-size: 18px;
+    opacity: 0.6000000238418579;
+    text-align: left;
+}
 .username_label {
-    width: 404px;
-    height: 70px;
-    border-top-left-radius: 6px;
-    border-top-right-radius: 6px;
-    border-bottom-left-radius: 6px;
-    border-bottom-right-radius: 6px;
-    color: rgba(3, 45, 35, 1);
+    width: 308px;
+    color: rgba(3,45,35,1);
+    stroke: #032D23;
     stroke-width: 3;
     position: absolute;
-    top: 476px;
-    left: 853px;
-    border: 2px solid rgba(3.000000058673322, 45.00000111758709, 35.00000171363354, 1);
+    top: 106px;
+    left: 376px;
     font-family: Inter;
     font-weight: Semi Bold;
     font-size: 18px;
     opacity: 0.6000000238418579;
     text-align: left;
 }
-
-.password_label {
-    width: 404px;
-    height: 70px;
-    border-top-left-radius: 6px;
-    border-top-right-radius: 6px;
-    border-bottom-left-radius: 6px;
-    border-bottom-right-radius: 6px;
-    border: 2px solid rgba(3.000000058673322, 45.00000111758709, 35.00000171363354, 1);
-    top: 606px;
-    left: 853px;
-    font-family: Inter;
-    font-weight: Semi Bold;
-    font-size: 18px;
-    opacity: 0.6000000238418579;
-    position: absolute;
-    text-align: left;
-}
-
-.username_icon {
-
-}
-
-.title2 {
+.v323_3399 {
     width: 467px;
-    color: rgba(3, 45, 35, 1);
+    color: rgba(3,45,35,1);
     position: absolute;
     top: 337px;
     left: 853px;
@@ -126,7 +90,6 @@ body {
     opacity: 1;
     text-align: left;
 }
-
 .v323_3401 {
     width: 404px;
     height: 70px;
@@ -137,14 +100,13 @@ body {
     position: absolute;
     top: 471px;
     left: 855px;
-    border: 2px solid rgba(3, 45, 35, 1);
+    border: 2px solid rgba(3,45,35,1);
     border-top-left-radius: 6px;
     border-top-right-radius: 6px;
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
     overflow: hidden;
 }
-
 .v323_3402 {
     width: 404px;
     height: 69px;
@@ -155,14 +117,13 @@ body {
     position: absolute;
     top: 564px;
     left: 855px;
-    border: 2px solid rgba(3, 45, 35, 1);
+    border: 2px solid rgba(3,45,35,1);
     border-top-left-radius: 6px;
     border-top-right-radius: 6px;
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
     overflow: hidden;
 }
-
 .login_button {
     width: 404px;
     height: 74px;
@@ -176,15 +137,14 @@ body {
     background-size: cover;
     opacity: 1;
     position: absolute;
-    top: 744px;
+    top: 714px;
     left: 855px;
     overflow: hidden;
 }
-
 .v323_3404 {
     width: 404px;
     height: 74px;
-    background: rgba(3, 45, 35, 1);
+    background: rgba(3,45,35,1);
     opacity: 1;
     position: absolute;
     top: 0px;
@@ -196,25 +156,11 @@ body {
     overflow: hidden;
 }
 
-.forget_pasword {
+.v323_3410 {
     width: 155px;
-    color: rgba(3, 45, 35, 1);
+    color: rgba(3,45,35,1);
     position: absolute;
-    top: 700px;
-    left: 1105px;
-    font-family: Inter;
-    font-weight: Regular;
-    font-size: 18px;
-    opacity: 1;
-    text-decoration: none;
-    text-align: left;
-}
-
-.forget_pasword:hover {
-    width: 155px;
-    color: rgba(3, 45, 35, 1);
-    position: absolute;
-    top: 700px;
+    top: 651px;
     left: 1105px;
     font-family: Inter;
     font-weight: Regular;
@@ -222,12 +168,11 @@ body {
     opacity: 1;
     text-align: left;
 }
-
-.remember_me {
+.v323_3411 {
     width: 126px;
-    color: rgba(3, 45, 35, 1);
+    color: rgba(3,45,35,1);
     position: absolute;
-    top: 700px;
+    top: 651px;
     left: 890px;
     font-family: Inter;
     font-weight: Regular;
@@ -235,18 +180,16 @@ body {
     opacity: 1;
     text-align: left;
 }
-
-.check {
+.v323_3412 {
     width: 27px;
     height: 31px;
-    background: rgba(255, 255, 255, 1);
+    background: rgba(255,255,255,1);
     opacity: 1;
     position: absolute;
-    top: 691px;
+    top: 655px;
     left: 855px;
     overflow: hidden;
 }
-
 .v323_3413 {
     width: 27px;
     height: 31px;
@@ -256,17 +199,15 @@ body {
     top: 0px;
     left: 0px;
 }
-
 .v323_3414 {
     width: 20px;
     height: 23px;
-    background: rgba(170, 167, 19, 1);
+    background: rgba(170,167,19,1);
     opacity: 1;
     position: absolute;
     top: 3px;
     left: 4px;
 }
-
 .v323_3426 {
     width: 91px;
     height: 88px;
@@ -284,19 +225,18 @@ body {
     border-bottom-right-radius: 30px;
     overflow: hidden;
 }
-
 .title {
     width: 226px;
+    color:rgba(170,167,19,1);
     position: absolute;
-    top: 30px;
-    left: 853px;
+    top: 43px;
+    left: 876px;
     font-family: Cambo;
     font-weight: Regular;
     font-size: 36px;
     opacity: 1;
     text-align: left;
 }
-
 .welcome_text {
     width: 558px;
     position: absolute;
@@ -308,11 +248,6 @@ body {
     opacity: 1;
     text-align: left;
 }
-
-.write {
-    color: rgba(170, 167, 19, 1);
-}
-
 .mail_icon {
     width: 30px;
     height: 30px;
