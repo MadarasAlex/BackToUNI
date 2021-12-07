@@ -81,7 +81,7 @@
   .v325_3765 {
     width: 3px;
     height: 56px;
-    background: rgba(221,226,255,1);
+
     opacity: 1;
     position: absolute;
     top: 0px;
@@ -103,7 +103,7 @@
   .v325_3767 {
     width: 17px;
     height: 21px;
-    background: url("../images/v325_3767.png");
+    background: url("../media/");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -154,7 +154,7 @@
   .v332_5421 {
     width: 17px;
     height: 21px;
-    background: url("../images/v332_5421.png");
+    background: url("../media/overview/iohannis.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -177,7 +177,7 @@
   .v325_3771 {
     width: 16px;
     height: 16px;
-    background: url("../images/v325_3771.png");
+    background: url("../media/overview/iohannis.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -2250,4 +2250,3 @@
     left: 1102px;
     border-radius: 50%;
   }
-  
