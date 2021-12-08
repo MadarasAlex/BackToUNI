@@ -101,7 +101,7 @@ body {
     width: 231px;
     color: rgba(221, 226, 255, 1);
     position: absolute;
-    top: 18px;
+    top: 22px;
     left: 78px;
     text-decoration: none;
     font-family: Mulish, serif;
@@ -112,9 +112,9 @@ body {
 }
 
 .overview_image {
-    width: 24px;
+    width: 28px;
     height: 28px;
-    background: url("../media/overview/overview_logo.png");
+    background: url("../media/sidebar/list/overview_selected.png");
     color: #fff;
     background-repeat: no-repeat;
     background-position: center center;
@@ -122,7 +122,7 @@ body {
     opacity: 1;
     position: absolute;
     top: 21px;
-    left: 35px;
+    left: 25px;
     overflow: hidden;
 }
 
@@ -243,7 +243,7 @@ body {
 .student_info_picture {
     width: 35px;
     height: 30px;
-    background: url("../media/sidebar/list/info_img.png");
+    background: url("../media/sidebar/list/student_info_img.png");
     opacity: 1;
     position: absolute;
     top: 218px;
@@ -346,6 +346,7 @@ body {
     left: 78px;
     font-family: Mulish;
     font-weight: Regular;
+    text-decoration: none;
     font-size: 20px;
     opacity: 1;
     text-align: left;
@@ -383,18 +384,18 @@ body {
     left: 3px;
 }
 
-.v325_3789 {
-    width: 255px;
-    height: 56px;
+.divider {
+    width: 80%;
+    height: 2px;
     background: rgba(255, 255, 255, 1);
     opacity: 1;
     position: absolute;
-    top: 522px;
-    left: 29px;
+    top: 582px;
+    left: 10%;
     overflow: hidden;
 }
 
-.v325_3790 {
+.settings_text {
     width: 159px;
     color: rgba(164, 166, 179, 1);
     position: absolute;
@@ -407,57 +408,44 @@ body {
     text-align: left;
 }
 
-.v325_3791 {
+.settings_img {
     width: 32px;
     height: 32px;
-    background: url("../images/v325_3791.png");
+    background: url("../media/sidebar/icon/sidebar/inactive/a_1. settings.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     opacity: 1;
     position: absolute;
     top: 606px;
-    left: 26px;
+    left: 25px;
     overflow: hidden;
 }
 
 .v325_3792 {
     width: 29px;
     height: 31px;
-    background: rgba(159, 162, 180, 1);
     opacity: 0.4000000059604645;
     position: absolute;
     top: 0px;
     left: 2px;
 }
 
-.v325_3797 {
+.settings_img_container {
     width: 255px;
-    background: url("../images/v325_3797.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     opacity: 0.05999999865889549;
     position: absolute;
     top: 578px;
-    left: 21px;
+    left: 25px;
     overflow: hidden;
 }
-
-.v325_3798 {
-    width: 255px;
-    background: url("../images/v325_3798.png");
-    opacity: 1;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    border: 1px solid rgba(223, 224, 235, 1);
-}
-
-.v325_4131 {
+.history_section {
     width: 255px;
     height: 56px;
-    background: rgba(255, 255, 255, 1);
+
     opacity: 1;
     position: absolute;
     top: 424px;
@@ -465,10 +453,11 @@ body {
     overflow: hidden;
 }
 
-.v325_4132 {
+.history_text {
     width: 192px;
     color: rgba(164, 166, 179, 1);
     position: absolute;
+    text-decoration: none;
     top: 18px;
     left: 81px;
     font-family: Mulish;
@@ -478,21 +467,21 @@ body {
     text-align: left;
 }
 
-.v325_7289 {
-    width: 32px;
-    height: 32px;
-    background: rgba(255, 255, 255, 1);
+.history_img_container {
+    width: 65px;
+    height: 56px;
     opacity: 1;
     position: absolute;
+    background-repeat: no-repeat;
     top: 15px;
-    left: 27px;
+    left: 25px;
     overflow: hidden;
 }
 
-.v325_7290 {
-    width: 32px;
-    height: 32px;
-    background: url("../images/v325_7290.png");
+.history_img {
+    width: 65px;
+    height: 56px;
+    background: url("../media/sidebar/list/history_img.png") no-repeat;
     opacity: 1;
     position: absolute;
     top: 0px;
@@ -502,17 +491,16 @@ body {
 .v325_7291 {
     width: 28px;
     height: 24px;
-    background: rgba(159, 162, 180, 1);
     opacity: 1;
     position: absolute;
     top: 4px;
     left: 2px;
 }
 
-.v325_7279 {
+.schedule_section {
     width: 255px;
     height: 56px;
-    background: rgba(255, 255, 255, 1);
+
     opacity: 1;
     position: absolute;
     top: 494px;
@@ -520,12 +508,13 @@ body {
     overflow: hidden;
 }
 
-.v325_7280 {
+.schedule_text {
     width: 192px;
     color: rgba(164, 166, 179, 1);
     position: absolute;
     top: 18px;
     left: 81px;
+    text-decoration: none;
     font-family: Mulish;
     font-weight: Regular;
     font-size: 20px;
@@ -533,10 +522,10 @@ body {
     text-align: left;
 }
 
-.v325_7286 {
+.schedule_img_container {
     width: 32px;
     height: 32px;
-    background: rgba(255, 255, 255, 1);
+
     opacity: 1;
     position: absolute;
     top: 15px;
@@ -544,10 +533,10 @@ body {
     overflow: hidden;
 }
 
-.v325_7287 {
+.schedule_img {
     width: 32px;
     height: 32px;
-    background: url("../images/v325_7287.png");
+    background: url("../media/sidebar/list/schedule_img.png");
     opacity: 1;
     position: absolute;
     top: 0px;
@@ -567,7 +556,7 @@ body {
 .v325_4135 {
     width: 50px;
     height: 52px;
-    background: url("../images/v325_4135.png");
+
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -582,13 +571,14 @@ body {
     overflow: hidden;
 }
 
-.v335_5256 {
+.logout_text {
     width: 159px;
     color: rgba(164, 166, 179, 1);
     position: absolute;
     top: 968px;
     left: 78px;
     font-family: Mulish;
+    text-decoration: none;
     font-weight: Regular;
     font-size: 20px;
     opacity: 1;
@@ -597,7 +587,7 @@ body {
 
 .v335_5257 {
     width: 255px;
-    background: url("../images/v335_5257.png");
+    background: url("../media/sidebar/list/logout_img.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -610,7 +600,7 @@ body {
 
 .v335_5258 {
     width: 255px;
-    background: url("../images/v335_5258.png");
+    background: url("../media/sidebar/list/logout_img.png");
     opacity: 1;
     position: absolute;
     top: 0px;
@@ -621,7 +611,7 @@ body {
 .v335_5259 {
     width: 32px;
     height: 32px;
-    background: rgba(255, 255, 255, 1);
+    background: url("../media/sidebar/list/logout_img.png");
     opacity: 1;
     position: absolute;
     top: 964px;
