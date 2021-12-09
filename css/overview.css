@@ -68,7 +68,7 @@ body {
 
 .overview_section {
     width: 309px;
-    height: 64px;
+    height: 68px;
     background: rgba(159, 162, 180, 1);
     opacity: 1;
     position: absolute;
@@ -484,8 +484,6 @@ body {
     background: url("../media/sidebar/list/history_img.png") no-repeat;
     opacity: 1;
     position: absolute;
-    top: 0px;
-    left: 0px;
 }
 
 .v325_7291 {
@@ -556,7 +554,6 @@ body {
 .v325_4135 {
     width: 50px;
     height: 52px;
-
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -608,7 +605,7 @@ body {
     border: 2px solid rgba(196, 196, 203, 1);
 }
 
-.v335_5259 {
+.logout_img_container {
     width: 32px;
     height: 32px;
     background: url("../media/sidebar/list/logout_img.png");
@@ -622,7 +619,7 @@ body {
 .v335_5260 {
     width: 32px;
     height: 32px;
-    background: url("../images/v335_5260.png");
+    background: url("../media/sidebar/list/logout_img.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -636,7 +633,7 @@ body {
 .v335_5261 {
     width: 32px;
     height: 32px;
-    background: url("../images/v335_5261.png");
+    background: url("../media/sidebar/list/logout_img.png");
     opacity: 1;
     position: absolute;
     top: 0px;
@@ -646,7 +643,6 @@ body {
 .v335_5262 {
     width: 24px;
     height: 24px;
-    background: url("../images/v335_5262.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -657,10 +653,10 @@ body {
     overflow: hidden;
 }
 
-.v335_5263 {
+.logout_image {
     width: 24px;
     height: 24px;
-    background: rgba(164, 166, 179, 1);
+    background: url("../media/sidebar/list/logout_img.png") no-repeat;
     opacity: 1;
     position: absolute;
     top: 0px;
