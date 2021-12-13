@@ -1,42 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet"/>
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet"/>
-    <link href="https://fonts.googleapis.com/css?family=Cambo&display=swap" rel="stylesheet"/>
-    <link href="../css/login.css" rel="stylesheet"/>
-    <title>Login</title>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css?family=Cambo&display=swap" rel="stylesheet"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="../css/login.css" rel="stylesheet"/>
+        <title>Login</title>
 
-</head>
+    </head>
 
-<body>
-<div class="v317_3215">
-    <div class="v323_3426"></div>
-    <span class="title">Student Portal</span><span class="welcome_text">Welcome back to <b class="write"> Student Portal</b></span>
+    <body>
+        <div class="Total_block">
+            <div class="background_image"></div>
+            <div class="Logo_Top"></div>
 
-    <div class="background_image"></div>
-    <div class="name"></div>
-    <div action="../scripts/login.js" method="post">
-        <form>
-            <label class="username_text" for="username">E-mail</label>
-            <input id="username" class="username_label" type="text" placeholder="Email" name="uname" required>
-            <i class="mail_icon"></i>
+            <span class="title">Student Portal</span>
+            <span class="welcome_text">Welcome back to
+                <strong class="write">
+                    Student Portal
+                </strong>
+            </span>
+            <span class="title2">Login</span>
+            <div action="../scripts/login.js" method="post">
+                <form>
+                    <label class="username_text" for="username">E-mail</label>
+                    <input id="username" class="username_label" type="text" placeholder="Email" name="uname" required>
+                    <em class="mail_icon"></em>
 
-            <label class="password_text" for="password"><b>Password</b> </label>
-            <input  id="password" class="password_label" type="password" placeholder="Password" name="password" required>
+                    <label class="password_text" for="password_id">
+                        <strong>Password</strong>
+                    </label>
+                    <input id="password_id" class="password_label" type="password" placeholder="Password" name="password" required>
+                    <div class="eye" type="button" onclick="visibility()"></div>
+                    <em class="fa fa-eye-slash" id="hide"></em>
+                    <em class="fa fa-eye" id="show"></em>
+                    <button type="submit" onclick="location.href='./overview.html';" class="login_button">
+                        Login
+                    </button>
+                    <a href="login.html" class="forget_pasword">Forget Password?</a>
+                    <span class="remember_me">Remember me</span>
+                    <input type="checkbox" class="check"/>
+                </form>
+            </div>
+            <div class="Cat">
 
-            <button type="submit" onclick="location.href='./overview.html';" class="login_button">
-                Login
-            </button>
-            <a href="login.html" class="forget_pasword">Forget Password?</a><span class="remember_me">Remember me</span>
-            <input type="checkbox" class="check"/>
-        </form>
-    </div>
-    <span class="title2">Login</span>
-
-
-</div>
-</body>
+            </div>
+            <a class="Cat_txt" href="main.html">
+                <div class="Back"></div>
+                <div class="Back_txt"><strong>Back</strong></div>
+            </a>
+        </div>
+    </body>
 
 </html>
