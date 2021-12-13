@@ -2,7 +2,9 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <link href="https://fonts.googleapis.com/css?family=Mulish&display=swap" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="../css/overview.css">
@@ -10,79 +12,88 @@
 </head>
 
 <body>
-<div class="selected_section">
-    <span class="chart_text">Subjects’ Chart</span>
-    <div class="dashboard_bar">
-        <span class="klaus_title">Klaus’s Dashboard</span>
-        <img class="logo_overview" src="../media/student_info_1.png" alt=""/>
-        <nav>
-            <div class="navigation_overview">
-                <ul>
 
-                    <div class="overview_section">
-                        <a href="overview.html" class="overview_text">Overview</a>
-                        <div class="overview_image"></div>
+<div name="top_bar">
+    <div class="topbar"></div>
+    <span class="overview_big">Overview</span>
+    <div class="klaus_pic"></div>
+
+    <span class="profile_name">Klaus Iohannis</span>
+
+    <div class="bell_img"></div>
+    <div class="notifications"></div>
+</div>
+
+<div class="dashboard_bar">
+    <span class="klaus_title">Klaus’s Dashboard</span>
+    <img alt="" class="logo_overview" src="../media/student_info_1.png"/>
+    <nav>
+        <div class="navigation_overview">
+            <ul>
+                <div class="overview_section">
+                    <a class="overview_text" href="overview.html">Overview</a>
+                    <div class="overview_image"></div>
+                </div>
+
+                <div class="student_info_section">
+                    <div class="student_info_picture"></div>
+                    <a class="student_info_text" href="student_information.html">Student Information</a>
+                </div>
+
+                <div class="finances_section">
+                    <a class="finances_text" href="finances.html">Finance</a>
+                    <div class="finances_img">
                     </div>
+                </div>
 
-                    <div class="student_info_section">
-                        <div class="student_info_picture"></div>
-                        <a href="student_information.html" class="student_info_text">Student Information</a>
+                <div class="grades_section">
+                    <a class="grades_text" href="grades.html">Grades</a>
+                </div>
+                <div class="grades_img"></div>
+
+                <div class="history_section">
+                    <a class="history_text" href="student's_history.html">Student’s History</a>
+                    <div class="history_img_container">
+                        <div class="history_img"></div>
                     </div>
-
-                    <div class="finances_section">
-                        <a href="finances.html" class="finances_text">Finance</a>
-                        <div class="finances_img">
-                        </div>
+                </div>
+                <div class="schedule_section">
+                    <a class="schedule_text" href="schedule.html">Schedules</a>
+                    <div class="schedule_img_container">
+                        <div class="schedule_img"></div>
                     </div>
+                </div>
+                <div class="v325_4135"></div>
 
-                    <div class="grades_section">
-                        <a href="grades.html" class="grades_text">Grades</a>
-                    </div>
-                    <div class="grades_img"></div>
+                <div class="divider"></div>
 
-                    <div class="history_section">
-                        <a href="student's_history.html" class="history_text">Student’s History</a>
-                        <div class="history_img_container">
-                            <div class="history_img"></div>
-                        </div>
-                    </div>
-                    <div class="schedule_section">
-                        <a href="schedule.html" class="schedule_text">Schedules</a>
-                        <div class="schedule_img_container">
-                            <div class="schedule_img"></div>
-                        </div>
-                    </div>
-                    <div class="v325_4135"></div>
-
-                    <div class="divider"></div>
-
-                    <span class="settings_text">Settings</span>
+                <span class="settings_text">Settings</span>
+                <div class="settings_img"></div>
+                <div class="settings_img_container">
                     <div class="settings_img"></div>
-                    <div class="settings_img_container">
-                        <div class="settings_img"></div>
-                    </div>
+                </div>
 
-                    <a href="login.html" class="logout_text">Log Out</a>
+                <a class="logout_text" href="login.html">Log Out</a>
 
-                    <div class="logout_img_container">
-                            <div class="logout_image"></div>
-                    </div>
-                </ul>
-            </div>
-        </nav>
-    </div>
-
-    <div class="v325_4114">
-        <div class="v325_3816">
-            <div class="v325_3817"></div>
+                <div class="logout_img_container">
+                    <div class="logout_image"></div>
+                </div>
+            </ul>
         </div>
-        <span class="v325_3818">Grading Subjects</span>
-        <span class="v325_3819">4/6</span>
-    </div>
-    <div class="v325_4115">
-        <div class="v325_4116">
-            <div class="v325_4117"></div>
+    </nav>
+</div>
+
+<div class="content_overview_page">
+    <div class="cards">
+        <div class="card1_container">
+            <div class="card1"></div>
+
+            <span class="card1_text">Grading Subjects</span>
+            <span class="card1_subtext">4/6</span>
         </div>
+    </div>
+    <div class="card2">
+        <div class="v325_4116"></div>
         <span class="v325_4118">Semester Average
             </span>
         <span class="v325_4119">8,30</span>
@@ -103,217 +114,11 @@
             </span>
         <span class="v325_4179">22/30</span>
     </div>
-    <div class="v325_3832">
-        <div class="name"></div>
-        <div class="v325_3840">
-            <div class="v325_3841">
-                <div class="v325_3842">
-                    <div class="v325_3843">
-                        <div class="v325_3844"></div>
-                    </div>
-                    <span class="v325_3845">November 2021</span>
-                </div>
-                <div class="name"></div>
-                <div class="v325_3847">
-                    <div class="v325_3848">
-                        <div class="v325_3849">
-                            <span class="v325_3850">sun</span>
-                        </div>
-                        <div class="v325_3851">
-                            <span class="v325_3852">mon</span>
-                        </div>
-                        <div class="v325_3853">
-                            <span class="v325_3854">tue</span>
-                        </div>
-                        <div class="v325_3855">
-                            <span class="v325_3856">wed</span>
-                        </div>
-                        <div class="v325_3857">
-                            <span class="v325_3858">thu</span>
-                        </div>
-                        <div class="v325_3859">
-                            <span class="v325_3860">fri</span>
-                        </div>
-                        <div class="v325_3861">
-                            <span class="v325_3862">sat</span>
-                        </div>
-                    </div>
-                    <div class="v325_3863">
-                        <div class="v325_3864">
-                            <div class="name"></div>
-                            <div class="name"></div>
-                            <div class="name"></div>
-                            <div class="name"></div>
-                            <div class="name"></div>
-                            <div class="name"></div>
-                            <div class="name"></div>
-                        </div>
-                        <div class="v325_3872">
-                            <div class="name"></div>
-                            <div class="name"></div>
-                            <div class="name"></div>
-                            <div class="name"></div>
-                            <div class="name"></div>
-                            <div class="name"></div>
-                            <div class="name"></div>
-                        </div>
-                        <div class="v325_3880">
-                            <div class="name"></div>
-                            <div class="name"></div>
-                            <div class="name"></div>
-                            <div class="name"></div>
-                            <div class="name"></div>
-                            <div class="name"></div>
-                            <div class="name"></div>
-                        </div>
-                        <div class="v325_3888">
-                            <div class="name"></div>
-                            <div class="name"></div>
-                            <div class="name"></div>
-                            <div class="name"></div>
-                            <div class="name"></div>
-                            <div class="name"></div>
-                            <div class="name"></div>
-                        </div>
-                        <div class="v325_3896">
-                            <div class="name"></div>
-                            <div class="name"></div>
-                            <div class="name"></div>
-                            <div class="name"></div>
-                            <div class="name"></div>
-                            <div class="name"></div>
-                            <div class="name"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="v325_3904">
-            <div class="v325_3905">
-                <div class="v325_3906">
-                    <span class="v325_3907">December 2021</span>
-                    <div class="v325_3908">
-                        <div class="v325_3909"></div>
-                    </div>
-                </div>
-                <div class="name"></div>
-                <div class="v325_3911">
-                    <div class="v325_3912">
-                        <div class="v325_3913">
-                            <span class="v325_3914">sun</span>
-                        </div>
-                        <div class="v325_3915">
-                            <span class="v325_3916">mon</span>
-                        </div>
-                        <div class="v325_3917">
-                            <span class="v325_3918">tue</span>
-                        </div>
-                        <div class="v325_3919">
-                            <span class="v325_3920">wed</span>
-                        </div>
-                        <div class="v325_3921">
-                            <span class="v325_3922">thu</span>
-                        </div>
-                        <div class="v325_3923">
-                            <span class="v325_3924">fri</span>
-                        </div>
-                        <div class="v325_3925">
-                            <span class="v325_3926">sat</span>
-                        </div>
-                    </div>
-                    <div class="v325_3927">
-                        <div class="v325_3928">
-                            <div class="name"></div>
-                            <div class="name"></div>
-                            <div class="name"></div>
-                            <div class="name"></div>
-                            <div class="name"></div>
-                            <div class="name"></div>
-                            <div class="name"></div>
-                        </div>
-                        <div class="v325_3936">
-                            <div class="name"></div>
-                            <div class="name"></div>
-                            <div class="name"></div>
-                            <div class="name"></div>
-                            <div class="name"></div>
-                            <div class="name"></div>
-                            <div class="name"></div>
-                        </div>
-                        <div class="v325_3944">
-                            <div class="name"></div>
-                            <div class="name"></div>
-                            <div class="name"></div>
-                            <div class="name"></div>
-                            <div class="name"></div>
-                            <div class="name"></div>
-                            <div class="name"></div>
-                        </div>
-                        <div class="v325_3952">
-                            <div class="name"></div>
-                            <div class="name"></div>
-                            <div class="name"></div>
-                            <div class="name"></div>
-                            <div class="name"></div>
-                            <div class="name"></div>
-                            <div class="name"></div>
-                        </div>
-                        <div class="v325_3960">
-                            <div class="name"></div>
-                            <div class="name"></div>
-                            <div class="name"></div>
-                            <div class="name"></div>
-                            <div class="name"></div>
-                            <div class="name"></div>
-                            <div class="name"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="v325_4038"></div>
-    </div>
+
     <span class="v325_4113">Calendar of assignments</span>
-    <div class="v325_4141">
-        <div class="v324_3213"></div>
-        <div class="v324_3214"></div>
-        <div class="v326_3287"></div>
-        <div class="v325_4137"></div>
-        <div class="v325_4138"></div>
-        <div class="v325_4139"></div>
-    </div>
-    <div class="v325_4161"></div>
-    <div class="v325_4165"></div>
-    <div class="v325_4167"></div>
-    <div class="v334_5237">
-        <div class="v334_5236">
-            <span class="v325_4150">Advanced Python Programming - 6 credits</span>
-            <span class="v325_4160">Artificial Intelligence - 5 credits</span>
-            <span class="v325_4162">Web Technologies - 4 credits</span>
-            <span class="v325_4164">Differential Equations - 4 credits</span>
-            <span class="v325_4166">Introduction to Blockchain - 4 credits</span>
-            <span class="v325_4168">Methodologies for the BSc Thesis - 3 credits</span>
-        </div>
-        <div class="v325_4151"></div>
-        <div class="v325_4163"></div>
-        <div class="v325_4169"></div>
-    </div>
-    <div class="v330_6602"></div>
-    <span class="v330_6603">Overview</span>
-    <div class="v330_6604">
-        <div class="v330_6605">
-            <div class="v330_6606"></div>
-            <div class="v330_6607"></div>
-        </div>
-        <div class="v330_6608"></div>
-    </div>
-    <span class="v330_6609">Klaus Iohannis</span>
-    <div class="v330_6610">
-        <div class="v330_6611"></div>
-    </div>
-    <div class="v330_6612"></div>
-    <div class="v330_6613"></div>
+
 </div>
+
 </body>
 
 </html>
