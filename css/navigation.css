@@ -1,0 +1,519 @@
+.dashboard_bar {
+    width: 24.5vw;
+    height: 80vmax;
+    background: rgba(54, 55, 64, 1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.klaus_title {
+    width: 100%;
+    color: rgba(164, 166, 179, 1);
+    position: absolute;
+    top: 3%;
+    left: 35%;
+    font-family: Mulish, serif;
+    font-weight: Bold;
+    font-size: 19px;
+    opacity: 0.699999988079071;
+    text-align: left;
+}
+
+.overview_section {
+    width: 100%;
+    height: 6%;
+    background: rgba(159, 162, 180, 1);
+    opacity: 1;
+    position: absolute;
+    top: 9%;
+    left: 0px;
+    overflow: hidden;
+    float: left;
+}
+
+.v325_3764 {
+    width: 100%;
+    height: 24%;
+    background: rgba(159, 162, 180, 1);
+    opacity: 0.07999999821186066;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.v325_3765 {
+    width: 3px;
+    height: 56px;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.overview_text {
+    width: 30%;
+    height: 5%;
+    color: rgba(221, 226, 255, 1);
+    position: absolute;
+    top: 22px;
+    left: 78px;
+    text-decoration: none;
+    font-family: Mulish, serif;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+}
+
+.overview_image {
+    width: 28px;
+    height: 28px;
+    background: url("../media/sidebar/list/overview_selected.png");
+    color: #fff;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 21px;
+    left: 25px;
+    overflow: hidden;
+}
+
+
+.student_info_section {
+    width: 100%;
+    height: 5%;
+    top: 10%
+}
+
+
+.logo_overview {
+    width: 18%;
+    height: 5%;
+    background: url("../media/student_info_1.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    margin: 7%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    overflow: hidden;
+}
+
+.student_info_picture {
+    width: 35px;
+    height: 30px;
+    background: url("../media/sidebar/list/student_info_img.png");
+    opacity: 1;
+    position: absolute;
+    top: 18%;
+    left: 25px;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.student_info_text {
+    width: 40%;
+    height: 5%;
+    color: rgba(164, 166, 179, 1);
+    position: absolute;
+    top: 17%;
+    left: 78px;
+    text-decoration: none;
+    font-family: Mulish;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+}
+
+.finances_section {
+    width: 100%;
+    height: 5%;
+    opacity: 1;
+    position: absolute;
+    top: 25%;
+    left: 0px;
+    overflow: hidden;
+}
+
+.finances_text {
+    width: 40%;
+    height: 5%;
+    color: rgba(164, 166, 179, 1);
+    position: absolute;
+    top: 1%;
+    left: 79px;
+    font-family: Mulish;
+    text-decoration: none;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+}
+
+.finances_img {
+    width: 32px;
+    height: 32px;
+    background: url("../media/sidebar/list/finances_img.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 0%;
+    left: 25px;
+    overflow: hidden;
+}
+
+
+.grades_section {
+    width: 100%;
+    height: 10%;
+    opacity: 1;
+    position: absolute;
+    top: 28%;
+    left: 0px;
+    overflow: hidden;
+}
+
+.grades_text {
+    width: 40%;
+    height: 5%;
+    color: rgba(164, 166, 179, 1);
+    position: absolute;
+    top: 37%;
+    left: 78px;
+    font-family: Mulish;
+    font-weight: Regular;
+    text-decoration: none;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+}
+
+.grades_img {
+    width: 65px;
+    height: 56px;
+    opacity: 1;
+    position: absolute;
+    background: url("../media/sidebar/list/grades_img.png") no-repeat;
+    top: 31.5%;
+    left: 25px;
+    overflow: hidden;
+}
+
+.v325_4193 {
+    width: 32px;
+    height: 32px;
+    background: rgba(255, 255, 255, 1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.v325_4194 {
+    width: 26px;
+    height: 26px;
+    background: rgba(164, 166, 179, 1);
+    opacity: 1;
+    position: absolute;
+    top: 2px;
+    left: 3px;
+}
+
+.divider {
+    width: 80%;
+    height: 2px;
+    background: rgba(164, 166, 179, 1);
+    opacity: 1;
+    position: absolute;
+    top: 55%;
+    left: 10%;
+    overflow: hidden;
+}
+
+.settings_text {
+    width: 40%;
+    height: 5%;
+    color: rgba(164, 166, 179, 1);
+    position: absolute;
+    top: 607px;
+    left: 79px;
+    font-family: Mulish;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+}
+
+.settings_img {
+    width: 32px;
+    height: 32px;
+    background: url("../media/sidebar/icon/sidebar/inactive/a_1. settings.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 606px;
+    left: 25px;
+    overflow: hidden;
+}
+
+.v325_3792 {
+    width: 29px;
+    height: 31px;
+    opacity: 0.4000000059604645;
+    position: absolute;
+    top: 0px;
+    left: 2px;
+}
+
+.settings_img_container {
+    width: 255px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 0.05999999865889549;
+    position: absolute;
+    top: 578px;
+    left: 25px;
+    overflow: hidden;
+}
+
+.history_section {
+    width: 100%;
+    height: 5%;
+    opacity: 1;
+    position: absolute;
+    top: 37%;
+    left: 0px;
+    overflow: hidden;
+}
+
+.history_text {
+    width: 70%;
+    height: 5%;
+    color: rgba(164, 166, 179, 1);
+    position: absolute;
+    text-decoration: none;
+    top: 18px;
+    left: 81px;
+    font-family: Mulish;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+}
+
+.history_img_container {
+    width: 65px;
+    height: 56px;
+    opacity: 1;
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 15px;
+    left: 25px;
+    overflow: hidden;
+}
+
+.history_img {
+    width: 65px;
+    height: 56px;
+    background: url("../media/sidebar/list/history_img.png") no-repeat;
+    opacity: 1;
+    position: absolute;
+}
+
+.v325_7291 {
+    width: 28px;
+    height: 24px;
+    opacity: 1;
+    position: absolute;
+    top: 4px;
+    left: 2px;
+}
+
+.schedule_section {
+    width: 100%;
+    height: 5%;
+    opacity: 1;
+    position: absolute;
+    top: 45%;
+    left: 3px;
+    overflow: hidden;
+}
+
+.schedule_text {
+    width: 40%;
+    height: 5%;
+    color: rgba(164, 166, 179, 1);
+    position: absolute;
+    top: 18px;
+    left: 81px;
+    text-decoration: none;
+    font-family: Mulish;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+}
+
+.schedule_img_container {
+    width: 32px;
+    height: 32px;
+
+    opacity: 1;
+    position: absolute;
+    top: 15px;
+    left: 27px;
+    overflow: hidden;
+}
+
+.schedule_img {
+    width: 32px;
+    height: 32px;
+    background: url("../media/sidebar/list/schedule_img.png");
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.v325_7288 {
+    width: 24px;
+    height: 26px;
+    background: rgba(159, 162, 180, 1);
+    opacity: 1;
+    position: absolute;
+    top: 1px;
+    left: 4px;
+}
+
+.v325_4135 {
+    width: 50px;
+    height: 52px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 27px;
+    left: 18px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    overflow: hidden;
+}
+
+.logout_text {
+    width: 40%;
+    height: 5%;
+    color: rgba(164, 166, 179, 1);
+    position: absolute;
+    top: 968px;
+    left: 78px;
+    font-family: Mulish;
+    text-decoration: none;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+}
+
+.v335_5257 {
+    width: 255px;
+    background: url("../media/sidebar/list/logout_img.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 0.05999999865889549;
+    position: absolute;
+    top: 923px;
+    left: 21px;
+    overflow: hidden;
+}
+
+.v335_5258 {
+    width: 255px;
+    background: url("../media/sidebar/list/logout_img.png");
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border: 2px solid rgba(196, 196, 203, 1);
+}
+
+.logout_img_container {
+    width: 32px;
+    height: 32px;
+    background: url("../media/sidebar/list/logout_img.png");
+    opacity: 1;
+    position: absolute;
+    top: 964px;
+    left: 29px;
+    overflow: hidden;
+}
+
+.v335_5260 {
+    width: 32px;
+    height: 32px;
+    background: url("../media/sidebar/list/logout_img.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.v335_5261 {
+    width: 32px;
+    height: 32px;
+    background: url("../media/sidebar/list/logout_img.png");
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.v335_5262 {
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    overflow: hidden;
+}
+
+.logout_image {
+    width: 24px;
+    height: 24px;
+    background: url("../media/sidebar/list/logout_img.png") no-repeat;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
