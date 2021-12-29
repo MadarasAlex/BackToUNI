@@ -2058,19 +2058,7 @@ body {
   overflow: hidden;
 }
 
-.schedule_text {
-  width: 192px;
-  color: rgba(164, 166, 179, 1);
-  position: absolute;
-  top: 18px;
-  left: 81px;
-  text-decoration: none;
-  font-family: Mulish;
-  font-weight: Regular;
-  font-size: 20px;
-  opacity: 1;
-  text-align: left;
-}
+
 
 .schedule_img_container {
   width: 32px;

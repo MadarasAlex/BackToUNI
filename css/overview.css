@@ -1,30 +1,31 @@
-* {
-    box-sizing: border-box;
-}
 
 :root {
     --selected: rgba(221, 226, 255, 1);
     --unselected: rgba(164, 166, 179, 1);
     --blue: rgba(18, 148, 242, 1);
 }
-
-@media screen and (min-width: 100%) and (min-height: 828px) {
-    .content_overview_page, .dashboard_bar {
-        width: 90%;
-        height: 1024px;
-
-    }
-
-    body {
-        font-size: 14px;
+@media screen and (max-width: 700px) {
+    .dashboard_bar {
         width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .dashboard_bar a {float: left;}
+    div.content {margin-left: 0;}
+}
+
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 400px) {
+    .dashboard_bar a {
+        text-align: center;
+        float: none;
     }
 }
 
 .content_overview_page {
-    width: 60vw;
+    width: 50vw;
     left: 24.6vw;
-    top: 20vh;
+    top: 10vh;
 }
 
 .chart_text {
@@ -41,22 +42,10 @@
 }
 
 .navigation_overview {
-    width: 100%;
-    height: 100%;
-    min-height: 100vh;
+    width:100%;
+    height:20vh;
 }
 
-.overview_section {
-    width: 100%;
-    height: 6%;
-    background: var(--selected);
-    opacity: 1;
-    position: absolute;
-    top: 9%;
-    left: 0px;
-    overflow: hidden;
-    float: left;
-}
 
 .cards {
     width: 55%;
@@ -349,32 +338,26 @@
     text-align: center;
 }
 
-
-.topbar {
-    width: 1280px;
+.top_bar{
+    width: 100vh;
     height: 15vh;
     background: rgba(255, 255, 255, 1);
     opacity: 0.8999999761581421;
-    position: absolute;
-    top: 1px;
+    border: 0px solid rgba(0, 0, 0, 1);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+.topbar {
+    width: 100vw;
+    height: 15vh;
+    background: rgba(255, 255, 255, 1);
+    opacity: 0.8999999761581421;
+    top: 0px;
     left: 24.5vw;
     border: 0px solid rgba(0, 0, 0, 1);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
     overflow: hidden;
 }
 
-.overview_big {
-    width: 25.5vw;
-    color: rgba(37, 39, 51, 1);
-    position: absolute;
-    top: 5%;
-    left: 26.5vw;
-    font-family: Mulish;
-    font-weight: Bold;
-    font-size: 24px;
-    opacity: 1;
-    text-align: left;
-}
 
 .klaus_pic {
     width: 4%;
@@ -3187,5 +3170,12 @@ _5237 {
     left: 0px;
     top: 270px;
 }
+/* this is needed to make the content scrollable on larger screens */
+@media (min-width: 576px) {
+    .h-sm-100 {
+        height: 100%;
+    }
+}
+
 
 
