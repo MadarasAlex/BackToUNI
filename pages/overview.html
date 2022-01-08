@@ -17,39 +17,39 @@
 
 
 
-<div class="topbar">
-    <span class="overview_big">Overview</span>
-    <div class="klaus_pic"></div>
+    <div class="topbar">
+        <span class="overview_big">Overview</span>
+        <div class="klaus_pic"></div>
 
-    <span class="profile_name">Klaus Iohannis</span>
+        <span class="profile_name">Klaus Iohannis</span>
 
-    <div class="bell_img"></div>
-    <div class="notifications"></div>
-</div>
+        <div class="bell_img"></div>
+        <div class="notifications"></div>
+    </div>
 
 
 <div class="dashboard_bar">
     <header class="navigation_overview">
-        <link rel="stylesheet" href="../css/navigation.css">
-        <span class="klaus_title">Klaus’s Dashboard</span>
-        <img alt="" class="logo_overview" src="../media/student_info_1.png"/>
+    <link rel="stylesheet" href="../css/navigation.css">
+    <span class="klaus_title">Klaus’s Dashboard</span>
+    <img alt="" class="logo_overview" src="../media/student_info_1.png"/>
     </header>
     <nav>
-        <a class="active" style="font-size:24px;" href="overview.html"><i class="fa fa-pie-chart" style="color:#818181;"></i>     Overview</a>
-        <a  href="student_information.html"><i style="font-size:24px; color: #818181;" class="fa">&#xf05a;</i>  Student Information</a>
-        <a  href="finances.html"><i style="font-size:24px; color:#818181;" class="fa">&#xf0d6;</i>  Finance</a>
-        <a  href="grades.html"><i style="font-size:24px; color:#818181;" class="fa">&#xf080;</i>  Grades</a>
-        <a  href="student_history_1.html"><i style="font-size:24px; color: #818181;" class="fa">&#xf1da;</i>  Student’s History</a>
-        <a style="margin-bottom:80px;" href="schedule.html"><i class="material-icons">&#xe8b5;</i>Schedules</a>
-        <a class="logout_text" href="login.html"><i class="fas fa-sign-out-alt" style="font-size:24px; color: #818181;"></i>  Log Out</a>
+                <a class="active" style="font-size:24px;" href="overview.html"><i class="fa fa-pie-chart" style="color:#818181;"></i>     Overview</a>
+                <a  href="student_information.html"><i style="font-size:24px; color: #818181;" class="fa">&#xf05a;</i>  Student Information</a>
+                <a  href="finances.html"><i style="font-size:24px; color:#818181;" class="fa">&#xf0d6;</i>  Finance</a>
+                <a  href="grades.html"><i style="font-size:24px; color:#818181;" class="fa">&#xf080;</i>  Grades</a>
+                <a  href="student_history_1.html"><i style="font-size:24px; color: #818181;" class="fa">&#xf1da;</i>  Student’s History</a>
+                <a style="margin-bottom:80px;" href="schedule.html"><i class="material-icons">&#xe8b5;</i>Schedules</a>
+                <a class="logout_text" href="login.html"><i class="fas fa-sign-out-alt" style="font-size:24px; color: #818181;"></i>  Log Out</a>
 
-        <!--                                <div class="divider"></div>-->
+<!--                                <div class="divider"></div>-->
 
-        <!--                                <span class="settings_text">Settings</span>-->
-        <!--                                <div class="settings_img"></div>-->
-        <!--                                <div class="settings_img_container">-->
-        <!--                                    <div class="settings_img"></div>-->
-        <!--                                </div>-->
+<!--                                <span class="settings_text">Settings</span>-->
+<!--                                <div class="settings_img"></div>-->
+<!--                                <div class="settings_img_container">-->
+<!--                                    <div class="settings_img"></div>-->
+<!--                                </div>-->
 
 
     </nav>
@@ -222,8 +222,38 @@
 <div class=chart_section>
     <div class="e334_5330">
         <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-        <script type="text/javascript" src="">
+        <script type="text/javascript">
+            google.charts.load('current', {'packages': ['corechart']});
+            google.charts.setOnLoadCallback(drawChart);
 
+            function drawChart() {
+
+                var data = google.visualization.arrayToDataTable([
+                    ['Subjects', 'Credits'],
+                    ['Advanced Python Programming', 6],
+                    ['Artificial Intelligence', 5],
+                    ['Web Technologies', 4],
+                    ['Differential Equations', 4],
+                    ['Introduction to Blockchain', 4],
+                    ['Methodologies for BSc Thesis', 3]
+
+                ]);
+
+                var options = {
+                    title: "Subjects' Chart",
+                    isStacked: true,
+                    legend: {
+                        position: 'none'
+                    },
+                    colors: ['#1294F2', '#8EC585', '#395141', '#7B3C29', '#43619A', '#FD0000']
+                };
+
+                var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+
+                chart.draw(data, options);
+
+
+            }
         </script>
         <div id="piechart" style="width: 100%; height: 50%; align-self: center;"></div>
 
