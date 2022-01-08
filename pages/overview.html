@@ -3,44 +3,45 @@
 <meta charset="UTF-8">
 
 <head>
+
+
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <link href="https://fonts.googleapis.com/css?family=Mulish&display=swap" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="../css/overview.css">
     <title>Overview</title>
-    <link href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-<body cz-shortcut-listen="true" data-gr-ext-installed="" data-new-gr-c-s-check-loaded="14.1043.0"
-      style="position: page;">
-<link href="../css/topbar.css" rel="stylesheet">
+<body>
+
+
+
 <div class="topbar">
     <span class="overview_big">Overview</span>
-    <img alt="profile" src="../media/overview/iohannis.png">
-    <!--    <a><i class="fas fa-bell" style="font-size:48px; color: #818181;" ></i></a>-->
-    <span class="profile_name">Klaus Iohannis</span>
-    <div class="notifications"></div>
+    <div class="klaus_pic"></div>
 
+    <span class="profile_name">Klaus Iohannis</span>
+
+    <div class="bell_img"></div>
+    <div class="notifications"></div>
 </div>
+
 
 <div class="dashboard_bar">
     <header class="navigation_overview">
-        <link href="../css/navigation.css" rel="stylesheet">
+        <link rel="stylesheet" href="../css/navigation.css">
         <span class="klaus_title">Klaus’s Dashboard</span>
-        <img alt="" class="logo_overview" src="../media/student_info_1.png">
+        <img alt="" class="logo_overview" src="../media/student_info_1.png"/>
     </header>
     <nav>
-        <a class="active" href="overview.html" style="font-size:24px;"><i class="fas fa-chart-pie"
-                                                                          style="color:#818181;"></i> Overview</a>
-        <a href="student_information.html"><i class="fa" style="font-size:24px; color: #818181;"></i> Student
-            Information</a>
-        <a href="finances.html"><i class="fa" style="font-size:24px; color:#818181;"></i> Finance</a>
-        <a href="grades.html"><i class="fa" style="font-size:24px; color:#818181;"></i> Grades</a>
-        <a href="student_history_1.html"><i class="fa" style="font-size:24px; color: #818181;"></i> Student’s
-            History</a>
-        <a href="schedule.html" style="margin-bottom:80px;"><i class="material-icons"></i>Schedules</a>
-        <a class="logout_text" href="login.html"><i class="fas fa-sign-out-alt"
-                                                    style="font-size:24px; color: #818181;"></i> Log Out</a>
+        <a class="active" style="font-size:24px;" href="overview.html"><i class="fa fa-pie-chart" style="color:#818181;"></i>     Overview</a>
+        <a  href="student_information.html"><i style="font-size:24px; color: #818181;" class="fa">&#xf05a;</i>  Student Information</a>
+        <a  href="finances.html"><i style="font-size:24px; color:#818181;" class="fa">&#xf0d6;</i>  Finance</a>
+        <a  href="grades.html"><i style="font-size:24px; color:#818181;" class="fa">&#xf080;</i>  Grades</a>
+        <a  href="student_history_1.html"><i style="font-size:24px; color: #818181;" class="fa">&#xf1da;</i>  Student’s History</a>
+        <a style="margin-bottom:80px;" href="schedule.html"><i class="material-icons">&#xe8b5;</i>Schedules</a>
+        <a class="logout_text" href="login.html"><i class="fas fa-sign-out-alt" style="font-size:24px; color: #818181;"></i>  Log Out</a>
 
         <!--                                <div class="divider"></div>-->
 
@@ -55,7 +56,6 @@
 </div>
 
 <div class="content_overview_page">
-
     <div class="cards">
         <div class="card1">
             <span class="card1_text">Grading Subjects</span>
@@ -77,161 +77,172 @@
 </div>
 
 
-<div class="chart_section">
-    <div class="e334_5330">
-        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-        <script src="../scripts/chart.js" type="text/javascript"></script>
-        <div id="piechart" style="width: 100%; height: 50%; align-self: center;">
-            <div style="position: relative;">
-                <div dir="ltr" style="position: relative; width: 405px; height: 412px;">
-                    <div aria-label="A chart."
-                         style="position: absolute; width: 100%; height: 100%;">
-                        <svg aria-label="A chart." height="512" style="overflow: hidden;" width="505">
-                            <defs id="_ABSTRACT_RENDERER_ID_0">
-                                <filter id="_ABSTRACT_RENDERER_ID_1">
-                                    <feGaussianBlur in="SourceAlpha" stdDeviation="2"></feGaussianBlur>
-                                    <feOffset dx="1" dy="1"></feOffset>
-                                    <feComponentTransfer>
-                                        <feFuncA slope="0.1" type="linear"></feFuncA>
-                                    </feComponentTransfer>
-                                    <feMerge>
-                                        <feMergeNode></feMergeNode>
-                                        <feMergeNode in="SourceGraphic"></feMergeNode>
-                                    </feMerge>
-                                </filter>
-                            </defs>
-                            <rect fill="#ffffff" height="512" stroke="none" stroke-width="0" width="505" x="0"
-                                  y="0"></rect>
-                            <g>
-                                <text fill="#000000" font-family="Arial" font-size="13" font-weight="bold" stroke="none"
-                                      stroke-width="0"
-                                      style="position: center; alignment: center;" text-anchor="start" x="207"
-                                      y="75.05">Subjects' Chart
-                                </text>
-                                <rect fill="#ffffff" fill-opacity="0" height="13" stroke="none" stroke-width="0"
-                                      width="312"
-                                      x="97" y="64"></rect>
-                            </g>
-                            <g>
-                                <path d="M253,256L253,100A156,156,0,0,1,407.8625843592964,237.19627788016962L253,256A0,0,0,0,0,253,256"
-                                      fill="#1294f2" stroke="#ffffff" stroke-width="1"></path>
-                                <text fill="#ffffff" font-family="Arial" font-size="13" stroke="none"
-                                      stroke-width="0" text-anchor="start" x="317.7540710665368" y="166.575580263501">
-                                    23.1%
-                                </text>
-                            </g>
-                            <g>
-                                <path d="M253,256L407.8625843592964,237.19627788016962A156,156,0,0,1,325.49681483882785,394.13114000190075L253,256A0,0,0,0,0,253,256"
-                                      fill="#8ec585" stroke="#ffffff" stroke-width="1"></path>
-                                <text fill="#ffffff" font-family="Arial" font-size="13"
-                                      stroke="none" stroke-width="0" text-anchor="start" x="343.91590795057664"
-                                      y="317.97589845422283">
-                                    19.2%
-                                </text>
-                            </g>
-                            <g>
-                                <path d="M253,256L149.5528653144359,139.23232328530827A156,156,0,0,1,253,100L253,256A0,0,0,0,0,253,256"
-                                      fill="#fd0000" stroke="#ffffff" stroke-width="1"></path>
-                                <text fill="#ffffff" font-family="Arial" font-size="13"
-                                      stroke="none" stroke-width="0" text-anchor="start" x="189.39280415045255"
-                                      y="138.9753161777968">
-                                    11.5%
-                                </text>
-                            </g>
-                            <g>
-                                <path d="M253,256L98.13741564070361,274.8037221198305A156,156,0,0,1,149.5528653144359,139.23232328530827L253,256A0,0,0,0,0,253,256"
-                                      fill="#43619a" stroke="#ffffff" stroke-width="1"></path>
-                                <text fill="#ffffff" font-family="Arial" font-size="13"
-                                      stroke="none" stroke-width="0" text-anchor="start" x="119.1223117362556"
-                                      y="216.79301456358854">
-                                    15.4%
-                                </text>
-                            </g>
-                            <g>
-                                <path d="M253,256L180.5031851611721,394.13114000190075A156,156,0,0,1,98.13741564070361,274.8037221198305L253,256A0,0,0,0,0,253,256"
-                                      fill="#7b3c29" stroke="#ffffff" stroke-width="1"></path>
-                                <text fill="#ffffff" font-family="Arial" font-size="13"
-                                      stroke="none" stroke-width="0" text-anchor="start" x="132.4588411841916"
-                                      y="330.9839264001394">
-                                    15.4%
-                                </text>
-                            </g>
-                            <g>
-                                <path d="M253,256L325.49681483882796,394.1311400019007A156,156,0,0,1,180.5031851611721,394.13114000190075L253,256A0,0,0,0,0,253,256"
-                                      fill="#395141" stroke="#ffffff" stroke-width="1"></path>
-                                <text fill="#ffffff" font-family="Arial" font-size="13"
-                                      stroke="none" stroke-width="0" text-anchor="start" x="234.50000000000003"
-                                      y="395.84827220386006">
-                                    15.4%
-                                </text>
-                            </g>
-                            <g></g>
-                        </svg>
-                        <div aria-label="A tabular representation of the data in the chart."
-                             style="position: absolute; left: -10000px; top: auto; width: 1px; height: 1px; overflow: hidden;">
-                            <table>
-                                <thead>
-                                <tr>
-                                    <th>Subjects</th>
-                                    <th>Credits</th>
-                                </tr>
-                                </thead>
-                                <tbody>
-                                <tr>
-                                    <td>Advanced Python Programming</td>
-                                    <td>6</td>
-                                </tr>
-                                <tr>
-                                    <td>Artificial Intelligence</td>
-                                    <td>5</td>
-                                </tr>
-                                <tr>
-                                    <td>Web Technologies</td>
-                                    <td>4</td>
-                                </tr>
-                                <tr>
-                                    <td>Differential Equations</td>
-                                    <td>4</td>
-                                </tr>
-                                <tr>
-                                    <td>Introduction to Blockchain</td>
-                                    <td>4</td>
-                                </tr>
-                                <tr>
-                                    <td>Methodologies for BSc Thesis</td>
-                                    <td>3</td>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </div>
+<div class="calendar">
+    <span class="v325_4113">Calendar of assignments</span>
+    <div class="e334_5409"></div>
+    <div class=e334_5410>
+        <div class=e334_5411>
+            <div class=e334_5412>
+                <div class=e334_5413>
+                    <div class="e334_5414"></div>
+                </div>
+                <span class="e334_5415">November 2021</span>
+            </div>
+            <div class="e334_5416"></div>
+            <div class=e334_5417>
+                <div class=e334_5418>
+                    <div class=e334_5419><span class="e334_5420">sun</span></div>
+                    <div class=e334_5421><span class="e334_5422">mon</span></div>
+                    <div class=e334_5423><span class="e334_5424">tue</span></div>
+                    <div class=e334_5425><span class="e334_5426">wed</span></div>
+                    <div class=e334_5427><span class="e334_5428">thu</span></div>
+                    <div class=e334_5429><span class="e334_5430">fri</span></div>
+                    <div class=e334_5431><span class="e334_5432">sat</span></div>
+                </div>
+                <div class=e334_5433>
+                    <div class=e334_5434>
+                        <div class=e334_5435><span class="ei334_5435_2_344">1</span></div>
+                        <div class=e334_5436><span class="ei334_5436_2_344">2</span></div>
+                        <div class=e334_5437><span class="ei334_5437_2_344">3</span></div>
+                        <div class=e334_5438><span class="ei334_5438_2_344">4</span></div>
+                        <div class=e334_5439><span class="ei334_5439_2_344">5</span></div>
+                        <div class=e334_5440><span class="ei334_5440_2_344">6</span></div>
+                        <div class=e334_5441><span class="ei334_5441_2_344">7</span></div>
+                    </div>
+                    <div class=e334_5442>
+                        <div class=e334_5443><span class="ei334_5443_2_344">8</span></div>
+                        <div class=e334_5444><span class="ei334_5444_2_344">9</span></div>
+                        <div class=e334_5445><span class="ei334_5445_2_344">10</span></div>
+                        <div class=e334_5446><span class="ei334_5446_2_344">11</span></div>
+                        <div class=e334_5447><span class="ei334_5447_2_344">12</span></div>
+                        <div class=e334_5448><span class="ei334_5448_2_344">13</span></div>
+                        <div class=e334_5449><span class="ei334_5449_2_349">14</span></div>
+                    </div>
+                    <div class=e334_5450>
+                        <div class=e334_5451><span class="ei334_5451_2_344">15</span></div>
+                        <div class=e334_5452><span class="ei334_5452_2_349">16</span></div>
+                        <div class=e334_5453><span class="ei334_5453_2_344">17</span></div>
+                        <div class=e334_5454><span class="ei334_5454_2_344">18</span></div>
+                        <div class=e334_5455><span class="ei334_5455_2_344">19</span></div>
+                        <div class=e334_5456><span class="ei334_5456_2_349">20</span></div>
+                        <div class=e334_5457><span class="ei334_5457_2_344">21</span></div>
+                    </div>
+                    <div class=e334_5458>
+                        <div class=e334_5459><span class="ei334_5459_2_344">22</span></div>
+                        <div class=e334_5460><span class="ei334_5460_2_344">23</span></div>
+                        <div class=e334_5461><span class="ei334_5461_2_344">24</span></div>
+                        <div class=e334_5462><span class="ei334_5462_2_344">25</span></div>
+                        <div class=e334_5463><span class="ei334_5463_2_344">26</span></div>
+                        <div class=e334_5464><span class="ei334_5464_2_344">27</span></div>
+                        <div class=e334_5465><span class="ei334_5465_2_344">28</span></div>
+                    </div>
+                    <div class=e334_5466>
+                        <div class=e334_5467><span class="ei334_5467_2_344">29</span></div>
+                        <div class=e334_5468><span class="ei334_5468_2_349">30</span></div>
+                        <div class=e334_5469><span class="ei334_5469_2_344"></span></div>
+                        <div class=e334_5470><span class="ei334_5470_2_344">1</span></div>
+                        <div class=e334_5471><span class="ei334_5471_2_344">1</span></div>
+                        <div class=e334_5472><span class="ei334_5472_2_344">1</span></div>
+                        <div class=e334_5473><span class="ei334_5473_2_344">1</span></div>
                     </div>
                 </div>
-                <div aria-hidden="true"
-                     style="display: none; position: absolute; top: 522px; left: 515px; white-space: nowrap; font-family: Arial; font-size: 13px;">
-                    Web Technologies
-                </div>
-                <div></div>
             </div>
         </div>
+    </div>
+    <div class=e334_5474>
+        <div class=e334_5475>
+            <div class=e334_5476><span class="e334_5477">December 2021</span>
+                <div class=e334_5478>
+                    <div class="e334_5479"></div>
+                </div>
+            </div>
+            <div class="e334_5480"></div>
+            <div class=e334_5481>
+                <div class=e334_5482>
+                    <div class=e334_5483><span class="e334_5484">sun</span></div>
+                    <div class=e334_5485><span class="e334_5486">mon</span></div>
+                    <div class=e334_5487><span class="e334_5488">tue</span></div>
+                    <div class=e334_5489><span class="e334_5490">wed</span></div>
+                    <div class=e334_5491><span class="e334_5492">thu</span></div>
+                    <div class=e334_5493><span class="e334_5494">fri</span></div>
+                    <div class=e334_5495><span class="e334_5496">sat</span></div>
+                </div>
+                <div class=e334_5497>
+                    <div class=e334_5498>
+                        <div class=e334_5499><span class="ei334_5499_2_344">1</span></div>
+                        <div class=e334_5500><span class="ei334_5500_2_344">2</span></div>
+                        <div class=e334_5501><span class="ei334_5501_2_344">3</span></div>
+                        <div class=e334_5502><span class="ei334_5502_2_344">4</span></div>
+                        <div class=e334_5503><span class="ei334_5503_2_344">5</span></div>
+                        <div class=e334_5504><span class="ei334_5504_2_344">6</span></div>
+                        <div class=e334_5505><span class="ei334_5505_2_344">7</span></div>
+                    </div>
+                    <div class=e334_5506>
+                        <div class=e334_5507><span class="ei334_5507_2_344">8</span></div>
+                        <div class=e334_5508><span class="ei334_5508_2_344">9</span></div>
+                        <div class=e334_5509><span class="ei334_5509_2_344">10</span></div>
+                        <div class=e334_5510><span class="ei334_5510_2_344">11</span></div>
+                        <div class=e334_5511><span class="ei334_5511_2_344">12</span></div>
+                        <div class=e334_5512><span class="ei334_5512_2_344">13</span></div>
+                        <div class=e334_5513><span class="ei334_5513_2_349">14</span></div>
+                    </div>
+                    <div class=e334_5514>
+                        <div class=e334_5515><span class="ei334_5515_2_344">15</span></div>
+                        <div class=e334_5516><span class="ei334_5516_2_349">16</span></div>
+                        <div class=e334_5517><span class="ei334_5517_2_344">17</span></div>
+                        <div class=e334_5518><span class="ei334_5518_2_344">18</span></div>
+                        <div class=e334_5519><span class="ei334_5519_2_344">19</span></div>
+                        <div class=e334_5520><span class="ei334_5520_2_344">20</span></div>
+                        <div class=e334_5521><span class="ei334_5521_2_344">21</span></div>
+                    </div>
+                    <div class=e334_5522>
+                        <div class=e334_5523><span class="ei334_5523_2_344">22</span></div>
+                        <div class=e334_5524><span class="ei334_5524_2_344">23</span></div>
+                        <div class=e334_5525><span class="ei334_5525_2_344">24</span></div>
+                        <div class=e334_5526><span class="ei334_5526_2_344">25</span></div>
+                        <div class=e334_5527><span class="ei334_5527_2_344">26</span></div>
+                        <div class=e334_5528><span class="ei334_5528_2_344">27</span></div>
+                        <div class=e334_5529><span class="ei334_5529_2_344">28</span></div>
+                    </div>
+                    <div class=e334_5530>
+                        <div class=e334_5531><span class="ei334_5531_2_344">29</span></div>
+                        <div class=e334_5532><span class="ei334_5532_2_344">30</span></div>
+                        <div class=e334_5533><span class="ei334_5533_2_344">31</span></div>
+                        <div class=e334_5534><span class="ei334_5534_2_344">1</span></div>
+                        <div class=e334_5535><span class="ei334_5535_2_344">1</span></div>
+                        <div class=e334_5536><span class="ei334_5536_2_344">1</span></div>
+                        <div class=e334_5537><span class="ei334_5537_2_344">1</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
-        <div class="legend">
-            <dl style="list-style: none;">
-                <li><i class="fas fa-circle" style="color: #1294f2"></i>Advanced Python Programming - 6 credits</li>
-                <li><i class="fas fa-circle" style="color: #8ec585;"></i>Artificial Intelligence - 5 credits</li>
-                <li><i class="fas fa-circle" style="color: #395141;"></i>Web Technologies - 4 credits</li>
-                <li><i class="fas fa-circle" style="color: #7b3c29;"></i>Differential Equations - 4 credits</li>
-                <li><i class="fas fa-circle" style="color: #43619a;"></i>Introduction to Blockchain - 4 credits</li>
-                <li><i class="fas fa-circle" style="color: #fd0000;"></i>Methodologies for the BSc Thesis - 3 credits
-                </li>
-            </dl>
+<div class=chart_section>
+    <div class="e334_5330">
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+        <script type="text/javascript" src="">
+
+        </script>
+        <div id="piechart" style="width: 100%; height: 50%; align-self: center;"></div>
+
+        <div class=legend>
+            <div class=e334_5236><span class="e325_4150">Advanced Python Programming - 6 credits
+            </span><span class="e325_4160">Artificial Intelligence - 5 credits</span>
+                <span class="e325_4162">Web Technologies - 4 credits</span>
+                <span class="e325_4164">Differential Equations - 4 credits</span>
+                <span class="e325_4166">Introduction to Blockchain - 4 credits</span>
+                <span class="e325_4168">Methodologies for the BSc Thesis - 3 credits</span></div>
+            <div class="e325_4151"></div>
+            <div class="e325_4163"></div>
+            <div class="e325_4169"></div>
         </div>
     </div>
 
 </div>
 
 
-<div id="etrack-container"></div>
-<div></div>
 </body>
 
 </html>
