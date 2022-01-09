@@ -4,7 +4,7 @@
     --unselected: rgba(164, 166, 179, 1);
     --blue: rgba(18, 148, 242, 1);
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 700px)
     .dashboard_bar {
         width: 100%;
         height: auto;

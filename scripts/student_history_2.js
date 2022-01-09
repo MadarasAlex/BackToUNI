@@ -1,7 +1,7 @@
 var xValues = ["Weighted Mean", "Average Mean", "Total Credit", "Credit Points"];
-var yValues = [55, 49, 44, 24, 15];
+var yValues = [25, 39, 44, 74, 15];
 
-new Chart("Bar_1_1", {
+new Chart("Bar_2_1", {
     type: "bar",
     data: {
         labels: xValues,
@@ -34,8 +34,8 @@ new Chart("Bar_1_1", {
         }
     }
 });
-var yValues = [40, 39, 94, 14, 75];
-new Chart("Bar_1_2", {
+var y2Values = [52, 100, 50, 32, 30];
+new Chart("Bar_2_2", {
     type: "bar",
     data: {
         labels: xValues,

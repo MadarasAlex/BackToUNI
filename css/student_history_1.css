@@ -6,7 +6,7 @@
 @media screen and (max-width: 700px) {
   .dashboard_bar {
     width: 100%;
-    height: auto;
+    height: 100%;
     position: fixed;
   }
   .dashboard_bar a {float: left;}
@@ -20,15 +20,20 @@
     float: none;
   }
 }
-
-
+.body{
+  position: fixed;
+  overflow: visible;
+}
+.canvas{
+  position: fixed;
+}
 .year_1_back {
   width: 150px;
   height: 60px;
   background: rgba(18,148,242,1);
-  position: absolute;
+  position: fixed;
   top: 110px;
-  left: 455px;
+  left: 405px;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
   border-bottom-left-radius: 50px;
@@ -39,9 +44,9 @@
   width: 150px;
   height: 60px;
   background: rgba(54,55,64,1);
-  position: absolute;
+  position: fixed;
   top: 110px;
-  left: 805px;
+  left: 705px;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
   border-bottom-left-radius: 50px;
@@ -52,9 +57,9 @@
   width: 150px;
   height: 60px;
   background: rgba(54,55,64,1);
-  position: absolute;
+  position: fixed;
   top: 110px;
-  left: 1155px;
+  left: 1055px;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
   border-bottom-left-radius: 50px;
@@ -64,9 +69,9 @@
 .year_1 {
   width: 70px;
   color: rgba(255,255,255,1);
-  position: absolute;
+  position: fixed;
   top: 125px;
-  left: 495px;
+  left: 445px;
   font-family: Roboto;
   font-weight: Bold;
   font-size: 24px;
@@ -75,9 +80,9 @@
 .year_2 {
   width: 70px;
   color: rgba(255,255,255,1);
-  position: absolute;
+  position: fixed;
   top: 125px;
-  left: 845px;
+  left: 745px;
   font-family: Roboto;
   font-weight: Bold;
   font-size: 24px;
@@ -86,9 +91,9 @@
 .year_3 {
   width: 70px;
   color: rgba(255,255,255,1);
-  position: absolute;
+  position: fixed;
   top: 125px;
-  left: 1195px;
+  left: 1095px;
   font-family: Roboto;
   font-weight: Bold;
   font-size: 24px;
@@ -98,7 +103,7 @@
 .name_prof {
   width: 800;
   color: rgba(164,166,179,1);
-  position: absolute;
+  position: fixed;
   top: 41px;
   left: 90px;
   font-family: Mulish;
@@ -131,20 +136,6 @@
   text-align: left;
 }
 
-.image_over {
-  width: 17px;
-  height: 21px;
-  background: url("../media/student_history/list/overview_img.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 21px;
-  left: 35px;
-  overflow: hidden;
-}
-
 .over_block_beh {
   width: 32px;
   height: 32px;
@@ -173,15 +164,6 @@
   left: 20.1vw;
   border: 0px solid rgba(0, 0, 0, 1);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
-}
-
-.bell{
-  background: url("../media/student_history/list/VectorBell.png");
-  width: 30px;
-  height: 40px;
-  position: absolute;
-  top: 20px;
-  right: 30px;
 }
 
 .v332_5287 {
@@ -513,9 +495,9 @@
   width: 100%;
   max-width: 800px;
   background: rgba(255,255,255,1);
-  position: absolute;
+  position: fixed;
   top: 195px;
-  left: 390px;
+  left: 290px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   border-bottom-left-radius: 20px;
@@ -527,9 +509,9 @@
   width: 430px;
   height: 510px;
   background: rgba(255,255,255,1);
-  position: absolute;
+  position: fixed;
   top: 195px;
-  left: 940px;
+  left: 840px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   border-bottom-left-radius: 20px;
@@ -552,7 +534,7 @@
 .name_student {
   width: 300px;
   color: rgba(37,39,51,1);
-  position: absolute;
+  position: fixed;
   top: 18px;
   left: 334px;
   font-family: Mulish;
