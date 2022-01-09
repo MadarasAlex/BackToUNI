@@ -7,19 +7,23 @@
     <link href="https://fonts.googleapis.com/css?family=Mulish&display=swap" rel="stylesheet"/>
     <link href="../css/student_history_1.css" rel="stylesheet"/>
     <script src="https://kit.fontawesome.com/fae5e2c1c9.js" crossorigin="anonymous"></script>
-    <title> Student's History</title>
+    <title>Student's History</title>
 
 </head>
-<body>
-<div class="page">
-    <div class="year_1_back"></div> <!--v330_5722-->
-    <div class="year_2_back">\
-        <a href="student_history_2.html">Year 2</a></div> <!--v330_5723-->
-    <div class="year_3_back"></div> <!--v330_5724-->
-    <span class="year_1">Year 1</span> <!--v330_5725-->
-    <span class="year_2">Year 2</span> <!--v330_5726-->
-    <span class="year_3">Year 3</span> <!--v330_5727-->
 
+<body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+
+    <div class="year_1_back"></div>
+    <span class="year_1">Year 1</span>
+    <a href="student's_history_2.html">
+        <div class="year_2_back"></div>
+        <span class="year_2">Year 2</span>
+    </a>
+    <a href="student's_history_3.html">
+        <div class="year_3_back"></div>
+        <span class="year_3">Year 3</span>
+    </a>
     <div class="dashboard_bar">
         <header class="navigation_overview">
             <link rel="stylesheet" href="../css/navigation.css">
@@ -27,13 +31,19 @@
             <img alt="" class="logo_overview" src="../media/student_info_1.png"/>
         </header>
         <nav>
-            <a class="active" style="font-size:24px;" href="overview.html"><i class="fa fa-pie-chart" style="color:#818181;"></i>     Overview</a>
-            <a  href="student_information.html"><i style="font-size:24px; color: #818181;" class="fa">&#xf05a;</i>  Student Information</a>
-            <a  href="finances.html"><i style="font-size:24px; color:#818181;" class="fa">&#xf0d6;</i>  Finance</a>
-            <a  href="grades.html"><i style="font-size:24px; color:#818181;" class="fa">&#xf080;</i>  Grades</a>
-            <a  href="student_history_1.html"><i style="font-size:24px; color: #818181;" class="fa">&#xf1da;</i>  Student’s History</a>
+            <a class="active" style="font-size:24px;" href="overview.html"><i class="fa fa-pie-chart"
+                                                                              style="color:#818181;"></i>
+                Overview</a>
+            <a href="student_information.html"><i style="font-size:24px; color: #818181;"
+                                                  class="fa">&#xf05a;</i> Student Information</a>
+            <a href="finances.html"><i style="font-size:24px; color:#818181;" class="fa">&#xf0d6;</i>
+                Finance</a>
+            <a href="grades.html"><i style="font-size:24px; color:#818181;" class="fa">&#xf080;</i> Grades</a>
+            <a href="student_history_1.html"><i style="font-size:24px; color: #818181;" class="fa">&#xf1da;</i>
+                Student’s History</a>
             <a style="margin-bottom:80px;" href="schedule.html"><i class="material-icons">&#xe8b5;</i>Schedules</a>
-            <a class="logout_text" href="login.html"><i class="fas fa-sign-out-alt" style="font-size:24px; color: #818181;"></i>  Log Out</a>
+            <a class="logout_text" href="login.html"><i class="fas fa-sign-out-alt"
+                                                        style="font-size:24px; color: #818181;"></i> Log Out</a>
 
             <!--                                <div class="divider"></div>-->
 
@@ -46,70 +56,16 @@
 
         </nav>
     </div>
-    <div class="topbar"></div>
     <div class="bell"></div>
-    <div class="back_chart_1"></div>
-    <span class="semester_1">Semester 1</span>
-    <span class="w_m_1_1">Weighted mean</span> <!--v330_6102-->
-    <span class="a_m_1_1">Average mean</span> <!--v330_6103-->
-    <span class="t_c_1_1">Total Credit</span> <!--v330_6104-->
-    <span class="c_p_1_1">Credit Points</span> <!--v330_6105-->
-    <span class="num_1_1">10</span> <!--v330_6107-->
-    <hr class="line_1_1"/>
-    <span class="num_2_1">20</span> <!--v330_6108-->
-    <hr class="line_2_1"/>
-    <span class="num_3_1">30</span> <!--v330_6109-->
-    <hr class="line_3_1"/>
-    <span class="num_4_1">40</span> <!--v330_6110-->
-    <hr class="line_4_1"/>
-    <span class="num_5_1">50</span> <!--v330_6111-->
-    <hr class="line_5_1"/>
-    <span class="num_6_1">60</span>
-    <hr class="line_6_1"/>
-    <div class="chart_1_1"></div> <!--v330_6184-->
-    <div class="chart_2_1"></div> <!--v330_6185-->
-    <div class="chart_3_1"></div> <!--v330_6186-->
-    <div class="chart_4_1"></div> <!--v330_6188-->
-    <hr class="line_7_1"/>
-    <div class="back_chart_2"></div>
-    <span class="semester_2">Semester 2</span>
-    <span class="w_m_2">Weighted mean</span> <!--v330_6102-->
-    <span class="a_m_2">Average mean</span> <!--v330_6103-->
-    <span class="t_c_2">Total Credit</span> <!--v330_6104-->
-    <span class="c_p_2">Credit Points</span> <!--v330_6105-->
-    <span class="num_1_2">10</span> <!--v330_6107-->
-    <hr class="line_1_2"/>
-    <span class="num_2_2">20</span> <!--v330_6108-->
-    <hr class="line_2_2"/>
-    <span class="num_3_2">30</span> <!--v330_6109-->
-    <hr class="line_3_2"/>
-    <span class="num_4_2">40</span> <!--v330_6110-->
-    <hr class="line_4_2"/>
-    <span class="num_5_2">50</span> <!--v330_6111-->
-    <hr class="line_5_2"/>
-    <span class="num_6_2">60</span>
-    <hr class="line_6_2"/>
-    <div class="chart_1_2"></div> <!--v330_6184-->
-    <div class="chart_2_2"></div> <!--v330_6185-->
-    <div class="chart_3_2"></div> <!--v330_6186-->
-    <div class="chart_4_2"></div> <!--v330_6188-->
-    <hr class="line_7_2"/>
     <span class="name_student">Student's History</span>
+
+    <canvas id="Bar_1_1" class="back_chart_1" style="height:70%;width:100%;max-width:500px"></canvas>
+    <canvas id="Bar_1_2" class="back_chart_2" style="height:70%;width:100%;max-width:500px"></canvas>
+    <script src="../scripts/student_history_1.js"></script>
+
     <div class="v330_6231">
         <div class="v330_6232"></div>
     </div>
-    <span class="v330_6325">Log Out</span>
-    <div class="v330_6326">
-        <div class="v330_6327"></div>
-    </div>
-    <div class="v330_6328">
-        <div class="v330_6329">
-            <div class="v330_6330"></div>
-        </div>
-        <div class="v330_6331">
-            <div class="v330_6332"></div>
-        </div>
-    </div>
-</div>
+
 </body>
 </html>
