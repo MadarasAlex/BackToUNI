@@ -34,7 +34,7 @@ new Chart("Bar_1_1", {
         }
     }
 });
-var yValues = [40, 39, 94, 14, 75];
+var y2Values = [40, 39, 94, 14, 75];
 new Chart("Bar_1_2", {
     type: "bar",
     data: {

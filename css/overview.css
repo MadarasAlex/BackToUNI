@@ -7,7 +7,7 @@
 @media screen and (max-width: 700px)
     .dashboard_bar {
         width: 100%;
-        height: auto;
+        height: 100vh;
         position: fixed;
     }
     .dashboard_bar a {float: left;}

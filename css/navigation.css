@@ -3,7 +3,7 @@
     height: 100%;
     margin:0;
     padding-left: 10px;
-    padding-top:20px;
+    padding-top:10px;
     background: rgba(54, 55, 64, 1);
     opacity: 1;
     position: fixed;
@@ -54,7 +54,7 @@
     overflow: hidden;
 }
 .dashboard_bar nav{
-    margin-top: 100px;
+    margin-top: 80px;
 }
 .dashboard_bar a {
 
@@ -62,10 +62,10 @@
     text-decoration: none;
     width: 100%;
     margin-left:0;
-    margin-top:20px;
+    margin-top:15px;
     font-size: 20px;
     color: #818181;
-    margin-bottom:20px;
+    margin-bottom:10px;
     display: block;
 }
 .dashboard_bar a:hover{
