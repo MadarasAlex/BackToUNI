@@ -8,6 +8,10 @@
         <link href="https://fonts.googleapis.com/css?family=Cambo&display=swap" rel="stylesheet"/>
         <link href="../css/login.css" rel="stylesheet"/>
         <script src="https://kit.fontawesome.com/fae5e2c1c9.js" crossorigin="anonymous"></script>
+        <script defer src="../scripts/login.js"></script>
+        <script defer src="../scripts/firebase.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/9.5.0/firebase-analytics.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/9.5.0/firebase-app.js"></script>
         <title>Login</title>
 
     </head>
@@ -25,19 +29,19 @@
             </span>
             <span class="title2">Login</span>
             <div action="../scripts/login.js" method="post">
-                <form>
+                <form id="login-form">
                     <label class="username_text" for="username">E-mail</label>
-                    <input id="username" class="username_label" type="text" placeholder="Email" name="uname" required>
+                    <input id="username" class="username_label" type="text" placeholder="Email" name="username" required>
                     <em class="mail_icon"></em>
 
                     <label class="password_text" for="password_id">
                         <strong>Password</strong>
                     </label>
                     <input id="password_id" class="password_label" type="password" placeholder="Password" name="password" required>
-                    <div class="eye" type="button" onclick="visibility()"></div>
+                    <i class="eye" type="button" onclick="visibility()"></i>
                     <em class="fa fa-eye-slash" id="hide"></em>
                     <em class="fa fa-eye" id="show"></em>
-                    <button type="submit" onclick="location.href='./overview.html';" class="login_button">
+                    <button id="submit-button" type="submit" onclick="login()" class="login_button">
                         Login
                     </button>
                     <a href="login.html" class="forget_pasword">Forget Password?</a>
