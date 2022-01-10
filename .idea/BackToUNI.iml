@@ -14,5 +14,6 @@
     <orderEntry type="library" name="Chart.js" level="application" />
     <orderEntry type="library" name="firebase-analytics" level="application" />
     <orderEntry type="library" name="firebase-app" level="application" />
+    <orderEntry type="library" name="firebase-ui-auth" level="application" />
   </component>
 </module>
