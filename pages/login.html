@@ -8,7 +8,8 @@
         <link href="https://fonts.googleapis.com/css?family=Cambo&display=swap" rel="stylesheet"/>
         <link href="../css/login.css" rel="stylesheet"/>
         <script src="https://kit.fontawesome.com/fae5e2c1c9.js" crossorigin="anonymous"></script>
-        <script defer src="../scripts/login.js"></script>
+        <script src="bundle.js"></script>
+
         <title>Login</title>
 
     </head>
@@ -40,7 +41,7 @@
                     <i class="eye" type="button" onclick="visibility()"></i>
                     <em class="fa fa-eye-slash" id="hide"></em>
                     <em class="fa fa-eye" id="show"></em>
-                    <button id="submit-button" type="submit" onclick="login()" class="login_button">
+                    <button id="submit-button" type="submit" href='overview.html' onclick="login()" class="login_button">
                         Login
                     </button>
                     <a href="login.html" class="forget_pasword">Forget Password?</a>
@@ -56,29 +57,20 @@
                 <div class="Back_txt"><strong>Back</strong></div>
             </a>
         </div>
-        <script type="module">
+
+
+        <script type="module" src="https://www.gstatic.com/firebasejs/9.6.2/firebase-app.js">
             // Import the functions you need from the SDKs you need
-            import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.2/firebase-app.js";
-            import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.2/firebase-analytics.js";
-            // TODO: Add SDKs for Firebase products that you want to use
-            // https://firebase.google.com/docs/web/setup#available-libraries
-
-            // Your web app's Firebase configuration
-            // For Firebase JS SDK v7.20.0 and later, measurementId is optional
             const firebaseConfig = {
-                apiKey: "AIzaSyCv0dTXeoeMXPiiRNUK4IIUQHhoJkh8jp0",
-                authDomain: "wt-project-a9257.firebaseapp.com",
-                projectId: "wt-project-a9257",
-                storageBucket: "wt-project-a9257.appspot.com",
-                messagingSenderId: "834972169638",
-                appId: "1:834972169638:web:1879b8035ca5d489384b67",
-                measurementId: "G-ECT01ENB47"
+                apiKey: "AIzaSyAoTj7cx2JapK2KUGGXbvyxBBip3Ha8jnQ",
+                authDomain: "web-project-9b0cc.firebaseapp.com",
+                projectId: "web-project-9b0cc",
+                storageBucket: "web-project-9b0cc.appspot.com",
+                messagingSenderId: "454316600409",
+                appId: "1:454316600409:web:56ecb4c4b45502bfcd1548"
             };
-
-            // Initialize Firebase
-            const app = initializeApp(firebaseConfig);
-            const analytics = getAnalytics(app);
         </script>
+        <script  src="../scripts/login.js"></script>
     </body>
 
 </html>
